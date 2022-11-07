@@ -5,6 +5,7 @@ const Square = (item) => {
   square.classList.add('square');
   const doneImage = document.createElement('img');
   doneImage.src = Done;
+  doneImage.alt = 'Checked image';
   doneImage.addEventListener('click', (e) => {
     e.stopPropagation();
     const incompleted = new CustomEvent('itemincomplete', {

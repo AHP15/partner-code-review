@@ -9,6 +9,7 @@ const Form = () => {
   button.classList.add('add-btn');
   const image = document.createElement('img');
   image.src = Enter;
+  image.alt = 'Enter image';
   button.appendChild(image);
 
   const tasksConatiner = document.querySelector('.list-container');

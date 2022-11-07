@@ -11,6 +11,7 @@ const HeadLine = () => {
   imageContainer.classList.add('refresh');
   const image = document.createElement('img');
   image.src = Refresh;
+  image.alt = 'refresh image';
   imageContainer.appendChild(image);
 
   container.appendChild(title);
